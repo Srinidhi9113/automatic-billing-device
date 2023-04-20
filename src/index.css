@@ -1,13 +1,49 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  text-align: center;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.intro{
+  margin: 10px;
+  padding:20px;
+  border-bottom: 2px solid #e9e9e9;
+}
+
+.Refresh-but{
+  background: #48cccf;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 50px;
+}
+.Refresh-but:hover{
+  background: #3eb0b3;
+}
+
+.Delete-but{
+  background: #48cccf;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+}
+.Delete-but:hover{
+  background: #3eb0b3;
+}
+
+.Bill-box{
+  margin:auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 70%;
+  border:2px solid #dadada;
+  border-radius: 20px;
 }
